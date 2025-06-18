@@ -1,0 +1,67 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.rockstargames.gtavc'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.rockstargames.gtavc"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters 'armeabi-v7a'
+            abiFilters 'arm64-v8a'
+        }
+
+        buildFeatures {
+            prefab true
+        }
+
+        lintOptions {
+            checkReleaseBuilds false
+            abortOnError false
+        }
+        ndkVersion '26.2.11394342'
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path "src/main/cpp/jni/Android.mk"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+    implementation("com.google.android.gms:play-services-drive:7.8.0")
+
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'commons-net:commons-net:3.9.0'
+    implementation 'com.google.android.gms:play-services-games:19.0.0'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+
+    implementation 'com.bytedance.android:shadowhook:1.0.9'
+}
