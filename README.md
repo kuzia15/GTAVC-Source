@@ -1,19 +1,19 @@
 # ᐳ GTAVC-Source for GTA: Vice City Android
 
-# ᐳ Описание \ Description
-> * Архитектура \ Architecture: `armeabi-v7a`, `arm64-v8a`  
-> * Платформа \ Platform: `Android NDK`
-> * Защита \ Security: `DobbyHook, ShadowHook`  
-> * Status: `В процессе / WIP`
+## ᐳ Description
+> * **Architecture**: `armeabi-v7a`, `arm64-v8a`  
+> * **Platform**: `Android NDK`  
+> * **Security / Hooking**: `DobbyHook`, `ShadowHook`  
+> * **Status**: Work in Progress (WIP)
 
-# ᐳ Возможности \ Features
-> * RenderWare engine: `RwWorld`, `RpSkin`, `RwCore`, `rphanim`, и т.д.  
-> * Игровой цикл, камера, скрипты  
-> * Хуки через `CHooks`, `ARMHook`  
-> * Интеграция через `JNI_OnLoad`  
-> * TODO: online in this plugin
+## ᐳ Features
+> * Reverse-engineered RenderWare engine components: `RwWorld`, `RpSkin`, `RwCore`, `rphanim`, and more  
+> * Game loop, camera, script handling  
+> * Hooking via `CHooks`, `ARMHook`  
+> * Native integration through `JNI_OnLoad`  
+> * TODO: Online multiplayer support via plugin
 
-# ᐳ Разработки \ Credit's
-> - [**kuzia15**](https://github.com/kuzia15) — Author
-> - [**DobbyHook**](https://github.com/jmpews/Dobby)  
-> - [**ShadowHook**](https://github.com/bytedance/ShadowHook)
+## ᐳ Credits
+> - [**kuzia15**](https://github.com/kuzia15) — Author  
+> - [**DobbyHook**](https://github.com/jmpews/Dobby) — Lightweight inline hook framework  
+> - [**ShadowHook**](https://github.com/bytedance/ShadowHook) — Android function hooking library by ByteDance
