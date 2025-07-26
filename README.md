@@ -14,6 +14,7 @@
 > * TODO: Online multiplayer support via plugin
 
 ## ᐳ Credits
-> - [**kuzia15**](https://github.com/kuzia15) — Author  
+> - [**kuzia15**](https://github.com/kuzia15) — Author
+> - [**edgar 3.0**] — Author of java
 > - [**DobbyHook**](https://github.com/jmpews/Dobby) — Lightweight inline hook framework  
 > - [**ShadowHook**](https://github.com/bytedance/ShadowHook) — Android function hooking library by ByteDance
