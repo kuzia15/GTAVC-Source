@@ -15,6 +15,6 @@
 
 ## ᐳ Credits
 > - [**kuzia15**](https://github.com/kuzia15) — Author
-> - [**edgar 3.0**] — Author of java
+> - [**EDGAR 3.0**](https://github.com/edgardevwork) — Author of java
 > - [**DobbyHook**](https://github.com/jmpews/Dobby) — Lightweight inline hook framework  
 > - [**ShadowHook**](https://github.com/bytedance/ShadowHook) — Android function hooking library by ByteDance
