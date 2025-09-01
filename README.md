@@ -1,7 +1,7 @@
 # ᐳ GTAVC-Source for GTA: Vice City Android
 
 ## ᐳ Description
-> * **Aarch**: `armeabi-v7a`, `arm64-v8a`  
+> * **AArch**: `armeabi-v7a`, `arm64-v8a`  
 > * **Platform**: `Android NDK`  
 > * **Security / Hooking**: `DobbyHook`, `ShadowHook`  
 > * **Status**: Work in Progress (WIP)
